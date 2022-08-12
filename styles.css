@@ -1,0 +1,173 @@
+global {
+	font-size: 100%;
+	font-family: ariel , sans-serif , Baskerville;
+}
+
+nav ul li img a {
+	display: block;
+}
+
+.main-container {
+	max-width: 1080px;
+	margin: auto;
+	text-align: center;
+}
+		/* Top navbar decor*/
+
+.topNav {
+	position: fixed;
+	width: 1080px;
+	top: 0px;
+	background-color: black;
+	overflow: hidden;
+}
+
+.temp-logo {
+	font-size: 18px;
+	float: right;
+	color: white;
+	justify-content: center;
+	font-family: ariel , sans-serif , Baskerville;
+	padding: 0px 135px;
+}
+
+.topNav a {
+	float: left; 
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px; 
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.topNav a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+.topNav a.active {
+	background-color: #04aa6d;
+	color: white;
+}
+
+			/* Gallery */
+
+.gallery-container {
+	max-width: 1080px;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
+
+.item a img {
+	width: 100%;
+	height: auto;
+}
+
+			/* About me container */
+
+.aboutMe-container {
+	margin: 0px auto;
+	padding: 25px;
+	background-color: #dfdfdf;
+	font-size: 17px;
+	overflow: hidden;
+}
+
+			/* Service container */
+
+.service-container {
+	margin: 0px auto;
+	background-color: #04aa6d;
+	font-size: 17px;
+	overflow: hidden;
+}
+
+.service-item h2 {
+	font-style: italic;
+}
+
+			/* Contact me */
+
+.booking-container {
+	margin: 0px auto;
+	background-color: #f2f2f2;
+	font-size: 17px;
+	overflow: hidden;
+	padding: 20px;
+}
+
+.booking-container a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+		/* filler images */
+
+.filler-container {
+	max-width: 1080px;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
+
+			/* social footer */
+
+.footer-container {
+	background-color: black;
+	overflow: hidden;
+	max-width: 1080px;
+	margin: auto;
+	text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.footer-container a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px; 
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.footer-container a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+.footer-container a.active {
+	background-color: #04aa6d;
+	color: white;
+}
+
+.copyright-container {
+	float: right;
+	color: #04aa6d;
+	text-align: center;
+	padding: 14px 16px; 
+	text-decoration: none;
+	font-size: 9px;
+}
+
+@media only screen and (max-width: 650px) {
+.main-container {
+	width: 483px;
+	margin: auto;
+	text-align: center;	
+}
+}
+@media only screen and (max-width: 650px) {
+.topNav {
+	width: 483px;
+	height: 50px;}
+}
+
+@media only screen and (max-width: 650px) {
+.topNav a {
+	font-size: 24px;
+}
+}
+
